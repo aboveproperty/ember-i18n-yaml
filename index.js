@@ -12,7 +12,7 @@
   **/
 var yaml = require('js-yaml');
 var fs = require('fs');
-var merge = require('deepmerge');
+var merge = require('lodash.merge');
 
 var YAMLToJSON = {
 
@@ -34,7 +34,7 @@ var YAMLToJSON = {
       var yamlFileURL = yamlDir+"/"+files[i];
       if(pathChecker.extname(files[i])!==".yml" || files[i]===(defaultLocale+".yml")){continue;}
       var locale = files[i].split(".")[0];
-      this.comparableDoc = merge(this.refDoc,this.toJSON(yamlFileURL,locale));
+      this.comparableDoc = merge({}, this.refDoc,this.toJSON(yamlFileURL,locale));
       this.writeToJS(jsDir,locale,this.comparableDoc);
     }
     console.log("\nYaml files from '"+pathChecker.resolve(yamlDir)+"' has been converted to js in '"+pathChecker.resolve(jsDir)+"'");
