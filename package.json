@@ -11,18 +11,18 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/vivekanandan/ember-i18n-yaml-to-json.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vivekanandan/ember-i18n-yaml-to-json.git"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
   "homepage": "http://vivekanandan.github.io/ember-i18n-yaml-to-json",
   "author": {
-    "name" : "Vivekanandan M",
-    "email" : "me@readvivek.com",
-    "url" : "http://www.readvivek.com"
+    "name": "Vivekanandan M",
+    "email": "me@readvivek.com",
+    "url": "http://www.readvivek.com"
   },
   "license": "MIT",
   "devDependencies": {
@@ -38,18 +38,18 @@
     "ember-cli-qunit": "0.3.15",
     "ember-cli-release": "0.2.3",
     "ember-cli-uglify": "^1.0.1",
+    "ember-disable-prototype-extensions": "^1.0.0",
     "ember-disable-proxy-controllers": "^1.0.0",
     "ember-export-application-global": "^1.0.2",
-    "ember-disable-prototype-extensions": "^1.0.0",
-    "ember-try": "0.0.6",
-    "js-yaml": "^3.3.1",
-    "deepmerge": "^0.2.10"
+    "ember-try": "0.0.6"
   },
   "keywords": [
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.0.0"
+    "ember-cli-babel": "^5.0.0",
+    "js-yaml": "^3.3.1",
+    "deepmerge": "^0.2.10"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
