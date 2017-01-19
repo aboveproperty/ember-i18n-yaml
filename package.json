@@ -11,11 +11,19 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/vivekanandan/ember-i18n-yaml-to-json.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "homepage": "http://vivekanandan.github.io/ember-i18n-yaml-to-json",
+  "author": {
+    "name" : "Vivekanandan M",
+    "email" : "me@readvivek.com",
+    "url" : "http://www.readvivek.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
@@ -30,7 +38,6 @@
     "ember-cli-qunit": "0.3.15",
     "ember-cli-release": "0.2.3",
     "ember-cli-uglify": "^1.0.1",
-    "ember-data": "1.13.5",
     "ember-disable-proxy-controllers": "^1.0.0",
     "ember-export-application-global": "^1.0.2",
     "ember-disable-prototype-extensions": "^1.0.0",
@@ -46,15 +53,5 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/vivekanandan/ember-i18n-yaml-to-json.git"
-  },
-  "homepage": "http://vivekanandan.github.io/ember-i18n-yaml-to-json",
-  "author": {
-    "name" : "Vivekanandan M",
-    "email" : "me@readvivek.com",
-    "url" : "http://www.readvivek.com"
   }
 }
