@@ -1,6 +1,6 @@
 # ember-i18n-yaml
 
-Convert i18n translations from a yaml format to the format expected by ember-i18n.
+Converts i18n translations from a yaml format to the js format expected by ember-i18n when your project is built.
 
 ## Installation
 
