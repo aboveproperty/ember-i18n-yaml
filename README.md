@@ -1,6 +1,9 @@
+[![Build Status](https://travis-ci.org/aboveproperty/ember-i18n-yaml.svg?branch=develop)](https://travis-ci.org/aboveproperty/ember-i18n-yaml)
+[![npm version](https://badge.fury.io/js/ember-i18n-yaml.svg)](http://badge.fury.io/js/ember-i18n-yaml)
+
 # ember-i18n-yaml
 
-Converts i18n translations from a yaml format to the js format expected by ember-i18n when your project is built.
+Converts i18n translation files from a yaml format to the js format expected by [ember-i18n](https://github.com/jamesarosen/ember-i18n) when your project is built.
 
 ## Installation
 
