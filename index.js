@@ -15,6 +15,7 @@ module.exports = {
   },
 
   treeForApp: function() {
+
     this._super.included.apply(this, arguments);
 
     var tree = this.app.trees.app;
