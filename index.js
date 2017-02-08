@@ -20,7 +20,7 @@ module.exports = {
   name: 'ember-i18n-yaml',
 
   isDevelopingAddon: function() {
-    return true;
+    return false;
   },
 
   shouldSetupRegistryInIncluded: function() {
