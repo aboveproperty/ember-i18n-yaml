@@ -32,6 +32,7 @@
     "broccoli-json-module": "^0.0.2",
     "broccoli-merge-trees": "^1.2.1",
     "broccoli-yaml": "aboveproperty/broccoli-yaml#0.0.5",
+    "ember-cli-version-checker": "1.2.0",
     "path": "^0.12.7"
   },
   "devDependencies": {
@@ -58,10 +59,16 @@
     "ember-source": "^2.11.0",
     "loader.js": "^4.0.10"
   },
+  "optionalDependencies": {
+    "broccoli-stew": "1.4.0"
+  },
   "engines": {
     "node": ">= 0.12.0"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "before": [
+      "ember-i18n"
+    ]
   }
 }
