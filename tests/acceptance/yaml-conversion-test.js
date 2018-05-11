@@ -8,6 +8,6 @@ test('yaml conversion of translations has worked', function(assert) {
   visit('/');
 
   andThen(() => {
-    assert.equal(find('h1.title').text(), 'Application Title');
+    assert.equal(find('h1#title').text(), 'Application Title');
   });
 });

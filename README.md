@@ -10,7 +10,6 @@ Converts i18n translation files from a yaml format to the js format expected by 
 * `git clone <repository-url>` this repository
 * `cd ember-i18n-yaml`
 * `npm install`
-* `bower install`
 
 ## Running
 
