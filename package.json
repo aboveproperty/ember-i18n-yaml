@@ -1,6 +1,6 @@
 {
   "name": "ember-i18n-yaml",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Converts ember-i18n label files from a yaml format to the required js format.",
   "keywords": [
     "ember-addon",
