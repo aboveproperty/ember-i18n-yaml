@@ -30,7 +30,7 @@
     "broccoli-funnel": "^2.0.1",
     "broccoli-json-module": ">=1.0.0",
     "broccoli-merge-trees": "^3.0.0",
-    "broccoli-yaml": "aboveproperty/broccoli-yaml#0.0.5",
+    "broccoli-yaml": "aboveproperty/broccoli-yaml#0.1.0",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-version-checker": "1.2.0",
     "path": "^0.12.7"
